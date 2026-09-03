@@ -1,0 +1,35 @@
+# Python runtime
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Logs
+*.log
+*.log.*
+
+# Backups / temp
+*.bak
+*.bak.*
+*.swp
+*.tmp
+*~
+
+# Local runtime state and caches
+device_info.json
+mac_name_mapping.json
+pushed_devices.json
+rejoin_notified.json
+sync_state.json
+.sync_state.json
+backup_state.json
+ds_balance_state.json
+ikuai_lookup_queue.json
+water_heater_notify_state.json
+
+# Local dataset snapshots (keep data outside Git)
+matrix_data/
+
+# 本地配置（含凭据，禁止入库）
+.env
